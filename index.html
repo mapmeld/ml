@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>What should I look for in a language model?</title>
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Steps to an Awesome Text Classifier</h2>
+
+          <h3>Can a Text Classifier Help?</h3>
+          <p>
+            <strong>This page helps you get started building a model using SimpleTransformers.</strong>
+            <br/>
+            Text classifiers help humans separate out two or more groups of messages.
+            <br/>
+            Examples: spam or not-spam, liberal or conservative,
+            positive / neutral / negative reviews, or dividing news stories into topics.
+          </p>
+          <p>
+            <strong>If your project is</strong> translating, answering questions, making a chatbot, or summarizing/processing lots of text, those links are
+            other tools for doing that.
+          </p>
+          <p>
+            <strong>Some tasks are hard for people and computers</strong>: picking the most romantic poem,
+            guessing if a review was written by someone from New York,
+            grading students' creative writing.
+            <br/>
+            Machine learning works best when it's <em>an easy task for humans</em> (such as detecting spam)
+            and <em>the computer will help by doing it faster</em>.
+          </p>
+        </div>
+        <div class="col-sm-12">
+          <h3>Picking a model in your language</h3>
+          <p>
+            For most cases you will start out with a language model created by researchers.
+            They have trained neural networks and picked vectors for words based on a super-large dataset of text in your language.
+          </p>
+          <p>
+            The leading models for English monolingual text are T5, XLM, and BERT.<br/>
+          </p>
+          <p>
+            Transformers has other monolingual models which you can research here.
+
+            XLM-R large vs. base vs. BERT vs. DIY
+Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Basque, Belarusian, Bengali, Bengali Romanized, Bosnian, Breton, Bulgarian, Burmese, Burmese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Filipino, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi, Hindi Romanized, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Korean, Kurdish (Kurmanji), Kyrgyz, Lao, Latin, Latvian, Lithuanian, Macedonian, Malagasy, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian, Oriya, Oromo, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Sanskri, Scottish, Gaelic, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tamil, Tamil Romanized, Telugu, Telugu Romanized, Thai, Turkish, Ukrainian, Urdu, Urdu Romanized, Uyghur, Uzbek, Vietnamese, Welsh, Western, Frisian, Xhosa, Yiddish
+https://github.com/VinAIResearch/PhoBERT
+https://mdbootstrap.com/docs/jquery/forms/autocomplete/
+http://vectors.nlpl.eu/repository/
+https://bertlang.unibocconi.it/
+            <a href="https://huggingface.co/models">source</a> - use this if you can't find it above
+https://github.com/facebookresearch/XLM
+https://github.com/google-research/bert/blob/master/multilingual.md
+          </p>
+          <p>
+            A full 100 languages are in Multilingual BERT and XLM-R. Cross-lingual
+            training means a potential for transfer learning (training on one language
+            can be effective on others).
+          </p>
+          <p>
+            If your language is not in that 100-language block, or it doesn't perform well,
+            or you have a specialized industry-specific vocabulary, you might need to do it yourself.
+          </p>
+        </div>
+      </div>
+      <table>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
