@@ -2,12 +2,190 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>What should I look for in a language model?</title>
+    <title>Nick Doiron - ML Portfolio</title>
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+    <style>
+.center {
+  text-align: center;
+}
+.center img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 90%;
+}
+.row:nth-child(even) {
+  background: #eee;
+}
+h4 {
+  margin-top: 16px;
+  margin-left: -20px;
+}
+li {
+  margin-bottom: 8px;
+}
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
+        <div class="col-sm-12">
+          <br/><br/>
+          <h1>Nick Doiron / @mapmeld ML Portfolio</h1>
+          <p>
+            No handwritten digits or irises here, just brand new projects
+          </p>
+          <hr/>
+          <ul>
+            <h4>Language</h4>
+            <li>
+              <strong>Hindi-Bert</strong> -
+              uploaded the first Hindi-specific Transformers model on HuggingFace; pretrained with Google ELECTRA
+              on OSCAR CommonCrawl and latest Wikipedia. Finetuning showed better results than Multilingual BERT
+              on Hindi movie review and BBC topic-identification datasets.
+              <br/>
+              <a href="https://medium.com/@mapmeld/a-whole-world-of-bert-f20d6bd47b2f">Why monolingual models?</a> -
+              <a href="https://github.com/mapmeld/hindi-bert">code</a> - <a href="https://medium.com/@mapmeld/teaching-hindi-to-electra-b11084baab81">blog post</a>
+              - <a href="https://github.com/mapmeld/hindi-bert/blob/latest/Hindi_Electra.ipynb">training CoLab</a>
+              - <a href="https://github.com/mapmeld/hindi-bert/blob/latest/HindiMovieReviews_HF.ipynb">SimpleTransformers vs. Finetuned ELECTRA</a> - <a href="https://github.com/mapmeld/hindi-bert/blob/latest/HindiMovieReviews.ipynb">benchmark Transformers</a>
+            </li>
+            <li>
+              <strong>Arabic NLP</strong> -
+              multiple projects:
+              <a href="https://medium.com/voice-tech-podcast/sentiment-analysis-in-arabic-f08cd20a76d">comparing sentiment analysis libraries</a>,
+              <a href="https://medium.com/@mapmeld/building-a-better-classifier-837c75249594">applying FastText embeddings</a>,
+              <a href="https://medium.com/@mapmeld/aws-learns-some-arabic-434450fdb963">evaluating AWS Comprehend</a>,
+              and training predictive models on
+              <a href="https://medium.com/@mapmeld/embeddings-for-arabic-dialect-classification-1cf84f336044">multiple Arabic dialect datasets</a>
+              (<a href="https://colab.research.google.com/drive/1U-Roc7zA-XL-yJiaG_Y74HpcVA3kw6LL">notebook</a>)
+            </li>
+            <li>
+              <strong>Esperanto LSTM</strong> -
+              trained on a Wikipedia corpus; generated text was nonsensical, but grammatical correctness was ultimately useful for editing Wikipedia
+              <br/>
+              <a href="https://medium.com/@mapmeld/esperanto-nlp-part-3-correcting-grammar-6d34f93bded1">blog post</a> - <a href="https://github.com/mapmeld/tensorflow-rnn-esperanto">code</a>
+            </li>
+            <div class="center">
+              <img src="./grammar_check.png"/>
+            </div>
+            <h4>Social Media</h4>
+            <li>
+              <strong>AOC Reply Dataset</strong> -
+              scraped 110k Twitter replies to Congresswoman @AOC, explored dataset with weakly supervised troll detection,
+              first with Google AutoML, then later with
+              <a href="https://medium.com/@mapmeld/deciphering-explainable-ai-with-eli5-22c90a06a32a">SciKit-Learn</a>
+              and
+              <a href="https://medium.com/@mapmeld/deciphering-explainable-ai-with-gpt-2-528611a3c75">GPT-2</a>
+              . I continue to collaborate with researchers who analyze
+              this dataset.
+              <br/>
+              <a href="https://github.com/mapmeld/aoc_reply_dataset/tree/master/all_tweets">dataset</a>
+              - <a href="https://towardsdatascience.com/the-aoc-reply-dataset-190925c3d6f9">blog post</a>
+            </li>
+            <li>
+              <strong>DeepClapback</strong> -
+              downloaded Reddit comments into PostgreSQL to find short replies which greatly outscored their parent (for example: "[citation needed]")
+              and predict the best response to any post.
+              Used Google AutoML.
+              <br/>
+              <a href="https://blog.goodaudience.com/can-deepclapback-learn-when-to-lol-e4a2092a8f2c">blog post</a>
+            </li>
+            <li>
+              <strong>Data Engineering with Kedro</strong> -
+              re-labeling Twitter disinfo data releases by language, using data pipeline library Kedro with new visualizations (see below)
+              <br/>
+              <a href="https://medium.com/@mapmeld/transparent-data-flow-with-kedro-eba842de4eb2">blog post</a> - <a href="https://github.com/mapmeld/kedro-log-viz">code</a>
+            </li>
+            <div class="center">
+              <img src="./lang_split.png"/>
+            </div>
+            <h4>Tabular Data</h4>
+            <li>
+              <strong>Student Dropout Contract</strong> -
+              processed 11 million rows of student records into a PostGIS database on contract with the Inter-American Development bank.
+              <br/>
+              Developed a data visualization (map and dashboard).
+              SciKit-Learn (Bayesian Ridge, XGBoost) to model dropout rates, crime rates, and nearby geography (from OpenStreetMap), and school stats.
+              Used ELI5 to measure significance of each column.<br/>
+              Dropout rate was not very predictable, especially in smaller rural schools (where one student leaving = 20% dropout rate),
+              but we found a key point is when students must change schools to enter 7th grade.
+              <br/>
+              <a href="https://github.com/mapmeld/stay-in-school">code</a>
+            </li>
+            <li>
+              <strong>Airbnb Price Prediction with AutoKeras</strong> -
+              Trained a model using Airbnb prices and OpenStreetMap local data. Used Uber's Manifold to visualize the significance of each column (see below).
+              <br/>
+              <a href="https://medium.com/@mapmeld/geodata-and-airbnb-price-predictions-e94dc5b5c150">blog post</a> - <a href="https://colab.research.google.com/drive/1WayFrrQGKJWBUNmLY4E37woMVC1D-k3q">notebook</a>
+            </li>
+            <div class="center">
+              <img src="./feature_weights.png"/>
+            </div>
+            <h4>Object Detection</h4>
+            <li>
+              <strong>Finding errors in self-driving car dataset</strong> -
+              based on this Reddit post, instead of repairing Udacity's dataset manually, I decided to compare
+              YOLOv3 either out-of-the-box or finetuned on existing labels.
+              <br/>
+              <a href="https://colab.research.google.com/drive/14O0guWGnY9F0Bg7ANLt7_YZ4Y0ZYQRJX">notebook</a> - <a href="https://medium.com/@mapmeld/cleaning-up-a-self-driving-car-dataset-1303ebf8c7a7">blog post</a>
+            </li>
+            <div class="center">
+              <img src="./detection.png"/>
+              YOLOv3 detected this motorcyclist who was otherwise unlabeled by Udacity/CrowdAI
+            </div>
+            <!-- <h4>Serving Models</h4>
+            <li>
+              https://medium.com/@mapmeld/crud-app-for-text-classification-a63c8c52b0ae
+              https://medium.com/@mapmeld/finalizing-the-crud-ml-app-5b1a9320a54b
+            </li> -->
+            <!-- <h4>GANs</h4>
+            <li>
+              On the IADB contract, I tried <a href="https://medium.com/@mapmeld/anonymizing-data-with-gans-75bd188fa9c6">anonymizing tablar data</a>
+              for data releases.
+              <br/>
+              I generated faces from the Facebook DeepFake challenge dataset - <a href="https://medium.com/analytics-vidhya/exploring-the-deepfake-detection-challenge-e926488791f5">blog post</a> - <a href="https://colab.research.google.com/drive/1d_SGnSfeKQvPZqw-Hz-v50QhF-LHehUQ">notebook</a>
+              <br/>
+              though later I learned DeepFakes are usually created with autoencoders 🤷.
+            </li>
+            <div class="center">
+              <img src="./deepfake.jpeg"/>
+            </div> -->
+            <h4>Non-ML Coding</h4>
+            I'm a full-stack developer with geospatial experience. Previously I worked in a Software Engineer / Data Scientist role at McKinsey & Company, and
+            as an open data expert for Code for America, the City of Boston, ESRI, and the Asia Foundation.
+            <br/>
+            <a href="https://github.com/mapmeld/">GitHub</a>: I've contributed to
+            <a href="https://github.com/mapmeld/fortran-machine">Fortran.IO</a>,
+            <a href="https://github.com/openstreetmap/iD">OpenStreetMap (osm.org and iD Editor)</a>
+            <a href="https://github.com/newjersey/business-programs">New Jersey's COVID business relief site</a>,
+            <a href="https://github.com/nextstrain/auspice">NextStrain</a>,
+            and <a href="https://github.com/MetaMask/metamask-extension">MetaMask</a>.
+            <!-- <h4>Text-to-Speech</h4>
+            <li>
+              A failed attempt at <a href="https://medium.com/@mapmeld/attempting-isixhosa-text-to-speech-c148750b85bf">isiXhosa</a> -
+              Mozilla TTS is a good library, but I would need to write a new phonemizer to break up the source text, and more GPU time to train the model.
+              Used AWS Sagemaker for more powerful GPUs.
+            </li> -->
+            <h4>Writing and Outreach</h4>
+              I participated in an <strong>AI and International Law</strong> workshop at the Asser Instituut in The Hague.
+              It was a good view of AI/ML from a legal (and Eurocentric) perspective:
+              <a href="https://medium.com/@mapmeld/discussing-ai-in-the-hague-67432267f342">blog post</a>
+              <hr/>
+              In recent years I conducted data visualization and PostGIS workshops at PyCon India, PyCon Zimbabwe, and refugee code schools in Turkey and Iraqi Kurdistan.
+              <!-- <a href="https://medium.com/@mapmeld/interesting-papers-from-ai-skeptics-edc97c0c39f7">Interesting Papers from AI Skeptics</a>
+              <br/>
+              <a href="https://medium.com/@mapmeld/near-future-predictions-for-machine-learning-97124c161b4d">Near-Future Predictions for Machine Learning</a>
+              <br/>
+              <a href="https://medium.com/@mapmeld/new-in-nlp-super-cool-projects-and-articles-dfc2c797c31e">New in NLP: Super Cool Projects and Articles</a> -->
+              <!--
+              https://medium.com/@mapmeld/what-if-explainable-ai-doesnt-work-749cc1f70281
+              https://medium.com/swlh/whats-worth-doing-in-machine-learning-d65bf6ec8b60
+            -->
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="row">
         <div class="col-sm-12">
           <h2>Steps to an Awesome Text Classifier</h2>
 
@@ -43,7 +221,13 @@
             The leading models for English monolingual text are T5, XLM, and BERT.<br/>
           </p>
           <p>
+            A full 100 languages are in Multilingual BERT and XLM-R. Cross-lingual
+            training means a potential for transfer learning (training on one language
+            can be effective on others).
+          </p>
+          <p>
             Transformers has other monolingual models which you can research here.
+            I wrote about why we don't use a multilingual all the time at https://medium.com/@mapmeld/a-whole-world-of-bert-f20d6bd47b2f
 
             XLM-R large vs. base vs. BERT vs. DIY
 Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Basque, Belarusian, Bengali, Bengali Romanized, Bosnian, Breton, Bulgarian, Burmese, Burmese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Filipino, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi, Hindi Romanized, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Korean, Kurdish (Kurmanji), Kyrgyz, Lao, Latin, Latvian, Lithuanian, Macedonian, Malagasy, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian, Oriya, Oromo, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Sanskri, Scottish, Gaelic, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tamil, Tamil Romanized, Telugu, Telugu Romanized, Thai, Turkish, Ukrainian, Urdu, Urdu Romanized, Uyghur, Uzbek, Vietnamese, Welsh, Western, Frisian, Xhosa, Yiddish
@@ -56,20 +240,12 @@ https://github.com/facebookresearch/XLM
 https://github.com/google-research/bert/blob/master/multilingual.md
           </p>
           <p>
-            A full 100 languages are in Multilingual BERT and XLM-R. Cross-lingual
-            training means a potential for transfer learning (training on one language
-            can be effective on others).
-          </p>
-          <p>
-            If your language is not in that 100-language block, or it doesn't perform well,
-            or you have a specialized industry-specific vocabulary, you might need to do it yourself.
+            If your language is not available, or it doesn't perform to your liking in your industry/vocabulary,
+            you might need to do it yourself.
           </p>
         </div>
-      </div>
-      <table>
-        <tbody>
-        </tbody>
-      </table>
+      </div> -->
     </div>
+    <br/><br/><br/>
   </body>
 </html>
