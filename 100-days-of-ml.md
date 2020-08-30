@@ -4,7 +4,9 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 29 August
 
+- Started writing blog post and testing Tokenizers to set up my patching language models post
 - Started using WikiExtractor and Tokenizers to find popular new words/tokens in English Wikipedia. The English version is considerably larger than what I've worked with before, so eventually I had the file in Google Drive, unzipped there (bzip2 -d), then copied unzipped XML to CoLab
+- Found a recent Facebook research preprint (https://arxiv.org/abs/1910.06241) which has a similar idea around updating pretrained models. They made their own simulated corpuses using fastText, and not updating a massive, real-world, transformers-based model, so I feel good about this.
 
 ### 28 August (and recent)
 
