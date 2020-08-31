@@ -2,6 +2,11 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 30 August
+
+- Used Tokenizers to make vocabulary lists from 15k to 40k words/word-pieces. Some contained 'coronavirus' or '-avirus'. Compared vocabulary lists to BERT and T5
+- Unfortunately 3,000+ tokens were new (e.g. typewriter as one token). I tweaked tokenizers settings with smaller vocabulary sizes, reduced to ~300 new tokens. But I didn't find a sweet spot of # of tokens to include coronavirus and not these additional pieces.
+
 ### 29 August
 
 - Started writing blog post and testing Tokenizers to set up my patching language models post
