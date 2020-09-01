@@ -2,6 +2,13 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 31 August
+
+- Found BERT and T5's suggested words for face mask, distancing, etc. Can calculate numeric weights for BERT, but not T5
+- Coded ways to insert new words into tokenizer and their vectors into the transformer. Raises a warning but should be OK.
+- I can overfit an embedding with torch.mean that comes up first in the suggested responses. But it seems better to find 100s of organic examples and fit from that
+- I propose creating a benchmark of coronavirus-relevance by 2020 sentences ("social distancing") and old context sentences ("social atmosphere") in case a good model can distinguish
+
 ### 30 August
 
 - Used Tokenizers to make vocabulary lists from 15k to 40k words/word-pieces. Some contained 'coronavirus' or '-avirus'. Compared vocabulary lists to BERT and T5
