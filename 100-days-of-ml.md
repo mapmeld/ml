@@ -4,6 +4,8 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 31 August
 
+Notebook: https://colab.research.google.com/drive/1lQfWFOPZCO5IVVw_3YwiXEY96fZ1zhoV
+
 - Found BERT and T5's suggested words for face mask, distancing, etc. Can calculate numeric weights for BERT, but not T5
 - Coded ways to insert new words into tokenizer and their vectors into the transformer. Raises a warning but should be OK.
 - I can overfit an embedding with torch.mean that comes up first in the suggested responses. But it seems better to find 100s of organic examples and fit from that
