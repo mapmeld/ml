@@ -2,6 +2,12 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 1 September
+Not a lot of tech progress today. I should write a script to collect sentences for the MASK project from Wikipedia and Reddit, since that will take time to process.
+- Read up on fairness/consent around data collection and archiving https://arxiv.org/abs/1912.10389
+- Re-downloaded Hate Memes challenge data so I can do some experiments in the future
+- JAX: in addition to Objax, there's a framework called Elegy which might be better
+
 ### 31 August
 
 Notebook: https://colab.research.google.com/drive/1lQfWFOPZCO5IVVw_3YwiXEY96fZ1zhoV
