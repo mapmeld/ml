@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 2 September
+Still not tech progress - I will have more time now that my assigned work-days have ended for the long weekend.
+- Watched longform videos, Cultivating ML Communities https://www.youtube.com/watch?v=uKjX-iJGKyA, Toxic Language on RASA, Getting Started in Automated Game Design https://www.youtube.com/watch?v=dZv-vRrnHDA
+
 ### 1 September
 Not a lot of tech progress today. I should write a script to collect sentences for the MASK project from Wikipedia and Reddit, since that will take time to process.
 - Read up on fairness/consent around data collection and archiving https://arxiv.org/abs/1912.10389
