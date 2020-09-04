@@ -2,6 +2,12 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 3 September
+- I finish my MASK-ing demo for BERT. Many words are successfully inserted into the model, but (a) the coefficients that I used seem arbitrary, and (b) overfitting is severe (Wuhan suggested for generic city name)
+- Blog post: https://medium.com/@mapmeld/patching-pre-trained-language-models-28ed6ea8b0bc
+- I reran HateMemes AutoKeras testing to investigate why I dropped it months ago. GPU can only handle around 200x200 pixel images. Accuracy metric indicates it is only predicting one category that is >50% of the training set. Need to use TPU? And multi-modal?
+- Transformers had a new release recently, and Ktrain updated their dependency. Issue closed.
+
 ### 2 September
 Still not tech progress - I will have more time now that my assigned work-days have ended for the long weekend.
 - Watched longform videos, Cultivating ML Communities https://www.youtube.com/watch?v=uKjX-iJGKyA, Toxic Language on RASA, Getting Started in Automated Game Design https://www.youtube.com/watch?v=dZv-vRrnHDA
