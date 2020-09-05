@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 4 September
+- Followed the directions from Facebook for the HateMemes challenge ( https://github.com/facebookresearch/mmf/tree/master/projects/hateful_memes ), got a few epochs of training, but it would take >24hrs of training
+- Helped blog post go into a publication, The Startup (not sure whether using publications benefits me?)
+
 ### 3 September
 - I finish my MASK-ing demo for BERT. Many words are successfully inserted into the model, but (a) the coefficients that I used seem arbitrary, and (b) overfitting is severe (Wuhan suggested for generic city name)
 - Blog post: https://medium.com/@mapmeld/patching-pre-trained-language-models-28ed6ea8b0bc
