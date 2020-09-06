@@ -4,6 +4,7 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 5 September
 Had some trouble sleeping, most progress was downloading from LandCoverNet dataset into my Google Drive
+- Wrote down a plan for AdapterHub, would be interesting to make Arabic dialect and COVID MASK adapters
 
 ### 4 September
 - Followed the directions from Facebook for the HateMemes challenge ( https://github.com/facebookresearch/mmf/tree/master/projects/hateful_memes ), got a few epochs of training, but it would take >24hrs of training
