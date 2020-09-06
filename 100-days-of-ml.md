@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 5 September
+Had some trouble sleeping, most progress was downloading from LandCoverNet dataset into my Google Drive
+
 ### 4 September
 - Followed the directions from Facebook for the HateMemes challenge ( https://github.com/facebookresearch/mmf/tree/master/projects/hateful_memes ), got a few epochs of training, but it would take >24hrs of training
 - Helped blog post go into a publication, The Startup (not sure whether using publications benefits me?)
