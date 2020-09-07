@@ -2,8 +2,8 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
-### 5 September
-Had some trouble sleeping, most progress was downloading from LandCoverNet dataset into my Google Drive
+### 5 & 6 September
+Had some trouble sleeping, most progress was running LandCoverNet dataset download
 - Wrote down a plan for AdapterHub, would be interesting to make Arabic dialect and COVID MASK adapters
 
 ### 4 September
