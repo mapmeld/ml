@@ -4,7 +4,7 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 6 September
 - Some practice questions for tech screening interviews
-- PR to AdapterHub adding Arabic dialect task
+- PRs to AdapterHub adding Arabic dialect task, issues with GPT-2 tutorial, RTL layout for Arabic translation of PyTorch DL book
 
 ### 5 September
 Had some trouble sleeping, most progress was running LandCoverNet dataset download
