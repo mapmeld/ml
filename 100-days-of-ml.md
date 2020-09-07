@@ -2,10 +2,13 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
-### 5 & 6 September
+### 6 September
+- Some practice questions for tech screening interviews
+- PR to AdapterHub adding Arabic dialect task
+
+### 5 September
 Had some trouble sleeping, most progress was running LandCoverNet dataset download
 - Wrote down a plan for AdapterHub, would be interesting to make Arabic dialect and COVID MASK adapters
-- Some practice questions for tech screening interviews
 
 ### 4 September
 - Followed the directions from Facebook for the HateMemes challenge ( https://github.com/facebookresearch/mmf/tree/master/projects/hateful_memes ), got a few epochs of training, but it would take >24hrs of training
