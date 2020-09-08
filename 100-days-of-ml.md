@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 7 September
+- Some interview prep
+- I want to train a GPT-2 for Arabic, including dialect control tokens. I've created the tokenizer, but the next steps are confusing, seems we are only replacing tokens from English GPT-2 , where does it do the model training?? Does everything need to be finetuned?
+
 ### 6 September
 - Some practice questions for tech screening interviews
 - PRs to AdapterHub adding Arabic dialect task, issues with GPT-2 tutorial, RTL layout for Arabic translation of PyTorch DL book
