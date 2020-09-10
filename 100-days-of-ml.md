@@ -2,8 +2,8 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
-### 8 September
-Career stuff and some reading
+### 8-9 September
+Career stuff and some reading, stop of progress
 
 ### 7 September
 - Some interview prep
