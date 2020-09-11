@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 10 September
+Making another attempt at Arabic GPT-2 (different tutorial as basis) and LandCoverNet (reference notebook got updated)
+
 ### 8-9 September
 Career stuff and some reading, stop of progress
 
