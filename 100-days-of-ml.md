@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 11 September
+- The new tutorial created a small but productive Arabic text-generation model. The text output isn't so meaningful, but I might be able to continue training on the tail of the Wikipedia articles. I might be able to engineer the TensorFlow model into a standardized tokenizer+transformer for HuggingFace. The end goal is still adding tokens to control which dialect is output.
+- I found an images dataset which is more straightforward (Kaggle flowers/TPU dataset). The data is distributed as TFRecords (x and y bundled together). Based on code samples and a Kaggle notebook, I was able to read in TFRecords, then separate out x and y to feed them into AutoKeras. CoLab RAM cannot handle 10,000 small images. I was able to run with 4,000 images, and there are 104 classes of flowers. I saw 72% validation accuracy here. But I should prove this on a new dataset. If it's real, it could be interesting then to show this problem in JAX.
+
 ### 10 September
 Making another attempt at Arabic GPT-2 (different tutorial as basis) and LandCoverNet (reference notebook got updated)
 
