@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 12 September
+- I confirmed that AutoKeras has an 84% accuracy score on the flowers dataset. This was impressive because I hadn't had the RAM to use the whole dataset, and I used only the CoLab GPU. I filed an issue asking AutoKeras to support the dataset (I think the issue is that x and y are included)
+- I evaluated Elegy and Objax as libraries for a comparable JAX-based image classifier. Objax looks better supported, and has examples using ResNet and CGIAR. I figured out how to load the dataset and transpose the image's dimensions to match expected input. Objax models look something like PyTorch code. Unfortunately I still have a dimensions mismatch in the loss function. The right thing might be to run their ImageNet example and track data shape through these same functions.
+
 ### 11 September
 - The new tutorial created a small but productive Arabic text-generation model. The text output isn't so meaningful, but I might be able to continue training on the tail of the Wikipedia articles. I might be able to engineer the TensorFlow model into a standardized tokenizer+transformer for HuggingFace. The end goal is still adding tokens to control which dialect is output.
 - I found an images dataset which is more straightforward (Kaggle flowers/TPU dataset). The data is distributed as TFRecords (x and y bundled together). Based on code samples and a Kaggle notebook, I was able to read in TFRecords, then separate out x and y to feed them into AutoKeras. CoLab RAM cannot handle 10,000 small images. I was able to run with 4,000 images, and there are 104 classes of flowers. I saw 72% validation accuracy here. But I should prove this on a new dataset. If it's real, it could be interesting then to show this problem in JAX.
