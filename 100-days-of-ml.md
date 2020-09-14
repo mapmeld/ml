@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 13 September
+No real progress because I slept through much of the day. Watched some videos about Kaggle.
+
 ### 12 September
 - I confirmed that AutoKeras has an 84% accuracy score on the flowers dataset. This was impressive because I hadn't had the RAM to use the whole dataset, and I used only the CoLab GPU. I filed an issue asking AutoKeras to support the dataset (I think the issue is that x and y are included)
 - I evaluated Elegy and Objax as libraries for a comparable JAX-based image classifier. Objax looks better supported, and has examples using ResNet and CGIAR. I figured out how to load the dataset and transpose the image's dimensions to match expected input. Objax models look something like PyTorch code. Unfortunately I still have a dimensions mismatch in the loss function. The right thing might be to run their ImageNet example and track data shape through these same functions.
