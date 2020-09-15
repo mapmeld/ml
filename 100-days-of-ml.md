@@ -2,8 +2,12 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 14 September
+- Tried flowers/AutoKeras code on Kaggle notebook. There's the same RAM limit of about 4000 192x192px images. I could see if there's a better way to process the images in batches, or lose a layer of abstraction and use Keras-Tuner (supports TPU, which AutoKeras can't). 
+- AdapterHub asked me to upload an example for the dialect detector.
+
 ### 13 September
-No real progress because I slept through much of the day. Watched some videos about Kaggle.
+No real progress, watched a video about Kaggle.
 
 ### 12 September
 - I confirmed that AutoKeras has an 84% accuracy score on the flowers dataset. This was impressive because I hadn't had the RAM to use the whole dataset, and I used only the CoLab GPU. I filed an issue asking AutoKeras to support the dataset (I think the issue is that x and y are included)
