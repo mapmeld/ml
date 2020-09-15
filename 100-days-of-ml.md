@@ -4,7 +4,7 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 14 September
 - Tried flowers/AutoKeras code on Kaggle notebook. There's the same RAM limit of about 4000 192x192px images. I could see if there's a better way to process the images in batches, or lose a layer of abstraction and use Keras-Tuner (supports TPU, which AutoKeras can't). 
-- AdapterHub asked me to upload an example for the dialect detector.
+- AdapterHub asked me to upload an example for the dialect detector. I'm on the right track; current issue is rebuilding my data, and turning my CSVs into torch.utils.data.Dataset format, so I can get the Transformers Trainer to process it
 
 ### 13 September
 No real progress, watched a video about Kaggle.
