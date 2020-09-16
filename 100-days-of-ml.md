@@ -3,7 +3,7 @@
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
 ### 15 September
-- Arabic GPT-2 can generate text, but finetuning in SimpleTransformers ran into a weird bug. I tried an older release of SimpleTransformers which introduced new issues, until I found a GitHub issue matching my problem. The next issue was CUDA/GPU running out of space. Had to reduce training batch size and cut some other corners.
+- Arabic GPT-2 can generate text, but finetuning in SimpleTransformers ran into a weird bug. I tried an older release of SimpleTransformers which introduced new issues, until I found a GitHub issue matching my problem. The next issue was CUDA/GPU running out of space. Every time the GPU gets messed up, have to hit factory reset on everything. Had to reduce training batch size and cut some other corners to fit.
 
 ### 14 September
 - Tried flowers/AutoKeras code on Kaggle notebook. There's the same RAM limit of about 4000 192x192px images. I could see if there's a better way to process the images in batches, or lose a layer of abstraction and use Keras-Tuner (supports TPU, which AutoKeras can't). 
