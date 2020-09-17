@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 16 September
+Joined AI ethics meetup, collected sources and made a visualization for a new data project (but it is ~500 records, so not ML)
+
 ### 15 September
 - Arabic GPT-2 can generate text, but finetuning in SimpleTransformers ran into a weird bug. I tried an older release of SimpleTransformers which introduced new issues, until I found a GitHub issue matching my problem. The next issue was CUDA/GPU running out of space. Every time the GPU gets messed up, have to hit factory reset on everything. Had to reduce training batch size and cut some other corners to fit.
 - Ultimately got a dialect model which I could upload on its own, and link as an example for sanaa. I plan to retrain this on more data.
