@@ -2,8 +2,13 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 17 September
+- Made interactive/explorer for the refugee data project. 
+- I liked this question about how to have a class of newbies do something interesting with neural nets including internals https://twitter.com/GalaxyKate/status/1306686937256865792
+- Built a new Arabic wiki dataset (2-3x previous) to train GPT-2 model, running process overnight
+
 ### 16 September
-Joined AI ethics meetup, collected sources and made a visualization for a new data project (but it is ~500 records, so not ML)
+Joined AI ethics meetup, collected sources and made a visualization for a refugee data project (but it is ~500-2,000 records / dataset, so not ML)
 
 ### 15 September
 - Arabic GPT-2 can generate text, but finetuning in SimpleTransformers ran into a weird bug. I tried an older release of SimpleTransformers which introduced new issues, until I found a GitHub issue matching my problem. The next issue was CUDA/GPU running out of space. Every time the GPU gets messed up, have to hit factory reset on everything. Had to reduce training batch size and cut some other corners to fit.
