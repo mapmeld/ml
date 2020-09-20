@@ -2,8 +2,13 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 19 September
+- Watched videos / lesson plans on Teaching ML https://www.youtube.com/channel/UCJWzJlUp-iZtCMhsohvExPA
+- Read through selected projects on Mozilla Trustworthy AI
+- Longer run of GPT-2 on larger Arabic dataset
+
 ### 18 September
-Traveling, minimal reading about NLP Checklist, hopefully more consistent progress going forward from today
+Traveling, minimal reading about NLP Checklist, published blog about Arabic GPT-2 work
 
 ### 17 September
 - Made interactive/explorer for the refugee data project. 
