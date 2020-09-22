@@ -2,6 +2,13 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 21 September
+- Rebuilt multi-Arabic dialect dataset, re-trained Sanaa-Dialect (finetuned Arabic GPT-2) on this larger dataset
+- Watched ML videos
+
+### 20 September
+Minimal progress, participated in startup meetup
+
 ### 19 September
 - Watched videos / lesson plans on Teaching ML https://www.youtube.com/channel/UCJWzJlUp-iZtCMhsohvExPA
 - Read through selected projects on Mozilla Trustworthy AI
