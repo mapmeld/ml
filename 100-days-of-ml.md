@@ -3,8 +3,9 @@
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
 ### 22 September
-- Watched UCI Symposium on Reproducibility, 
-- AdapterHub for Arabic dialects
+- Watched UCI Symposium on Reproducibility, video on AI for NGOs https://www.youtube.com/watch?v=Y0dKDcipaHY
+- Uploaded adapter for Arabic dialects on AdapterHub
+- Implementing my proposal for moving target NLP metric
 
 ### 21 September
 - Rebuilt multi-Arabic dialect dataset, re-trained Sanaa-Dialect (finetuned Arabic GPT-2) on this larger dataset
