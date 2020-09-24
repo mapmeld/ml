@@ -2,6 +2,11 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 23 September
+- Watched Andrew Ng webinar and Chai Time Data Science
+- Arabic dialect adapter got merged, received feedback for improvement (segmentation before tokenization)
+- Finished write-up on moving target metric
+
 ### 22 September
 - Watched UCI Symposium on Reproducibility, video on AI for NGOs https://www.youtube.com/watch?v=Y0dKDcipaHY
 - Uploaded adapter for Arabic dialects on AdapterHub
