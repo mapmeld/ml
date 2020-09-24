@@ -4,7 +4,7 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 23 September
 - Watched Andrew Ng webinar and Chai Time Data Science
-- Arabic dialect adapter got merged, received feedback for improvement (segmentation before tokenization)
+- Arabic dialect adapter got merged, received feedback for improvement (Farasa segmentation before tokenization), redid model and fixed bug in Gulf dialect input
 - Finished write-up on moving target metric
 
 ### 22 September
