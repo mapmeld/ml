@@ -2,6 +2,11 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 24 September
+- Frustration with LandCoverNet seems to be common https://twitter.com/MatthewTeschke/status/1306370474415456258
+- Watched RASA video on NLP CheckList paper
+- Exploring Kaggle
+
 ### 23 September
 - Watched Andrew Ng webinar and Chai Time Data Science
 - Arabic dialect adapter got merged, received feedback for improvement (Farasa segmentation before tokenization), redid model and fixed bug in Gulf dialect input
