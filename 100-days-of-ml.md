@@ -5,7 +5,7 @@ Hope to track progress, and encourage myself to keep some of these different pro
 ### 24 September
 - Frustration with LandCoverNet seems to be common https://twitter.com/MatthewTeschke/status/1306370474415456258
 - Watched RASA video on NLP CheckList paper
-- Exploring Kaggle
+- Finished getting Kaggle flowers example running in Objax (training only, not testing) - want to try Flax and other JAX stuff
 
 ### 23 September
 - Watched Andrew Ng webinar and Chai Time Data Science
