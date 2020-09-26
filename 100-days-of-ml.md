@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 26 September
+- Watched OpenMined privacy conference
+- Finished post on AI Ethics
+
 ### 25 September
 - Added eval run to Kaggle flowers + Objax, not yet going to a new framework. Proposed talk on this
 - Read papers including this on differential privacy - DP models increase bias/inaccuracy on minority classes https://arxiv.org/pdf/2009.06389.pdf
