@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 25 September
+- Added eval run to Kaggle flowers + Objax, not yet going to a new framework. Proposed talk on this
+- Read papers including this on differential privacy - DP models increase bias/inaccuracy on minority classes https://arxiv.org/pdf/2009.06389.pdf
+
 ### 24 September
 - Frustration with LandCoverNet seems to be common https://twitter.com/MatthewTeschke/status/1306370474415456258
 - Watched RASA video on NLP CheckList paper
