@@ -2,6 +2,11 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 27 September
+- Confirmed AutoKeras bug is fixed in upcoming release; updated + simplified AutoKeras flowers example
+- Started Flax version of flowers example based on Imagenet - this seems like a bulk of code, initially batches are not quite fitting expected iterator
+- AI Ethics post in "The Startup" Medium publicatio
+
 ### 26 September
 - Watched OpenMined privacy conference
 - Finished post on AI Ethics
