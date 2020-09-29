@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 28 September
+Slower day, read some papers
+
 ### 27 September
 - Confirmed AutoKeras bug is fixed in upcoming release; updated + simplified AutoKeras flowers example
 - Started Flax version of flowers example based on Imagenet - this seems like a bulk of code, initially batches are not quite fitting expected iterator.. confirmed TFDataset is hard to input https://twitter.com/wightmanr/status/1302039882575917057
