@@ -2,8 +2,11 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 29 September
+Retried Flax parsing dataset... will likely scrap my code, use workig Imagenet example, and adapt from there
+
 ### 28 September
-Slower day, read some papers
+Slower day, read some papers, FaccT videos
 
 ### 27 September
 - Confirmed AutoKeras bug is fixed in upcoming release; updated + simplified AutoKeras flowers example
