@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 30 September
+Watched "GANs for Good" seminar
+
 ### 29 September
 Retried Flax parsing dataset... will likely scrap my code, use workig Imagenet example, and adapt from there
 
