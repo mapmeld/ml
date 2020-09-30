@@ -4,6 +4,8 @@ Hope to track progress, and encourage myself to keep some of these different pro
 
 ### 30 September
 Watched "GANs for Good" seminar
+Submitted 2-minute talk on WEAT-ES to TWIML lightning round
+Exploring Flax/Linen after it was recommended by dev on Twitter
 
 ### 29 September
 Retried Flax parsing dataset... will likely scrap my code, use workig Imagenet example, and adapt from there
