@@ -2,10 +2,14 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 1 October
+- Watched "NLP with Friends", reading into WinoWhy and HKUST's ASER knowledge graph
+- Set up contract work repo
+- Exploring Flax/Linen after it was recommended by dev on Twitter
+
 ### 30 September
-Watched "GANs for Good" seminar
-Submitted 2-minute talk on WEAT-ES to TWIML lightning round
-Exploring Flax/Linen after it was recommended by dev on Twitter
+- Watched "GANs for Good" seminar
+- Submitted 2-minute talk on WEAT-ES to TWIML lightning round
 
 ### 29 September
 Retried Flax parsing dataset... will likely scrap my code, use workig Imagenet example, and adapt from there
