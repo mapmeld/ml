@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 2 October
+- Advocating for, and researching re: NeurIPS breakout session
+- Loaded Imagenet example from Haiku and ported to Imagenette
+
 ### 1 October
 - Watched "NLP with Friends", reading into WinoWhy and HKUST's ASER knowledge graph
 - Set up contract work repo
