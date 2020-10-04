@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 3 October
+- Completed Imagenette examples, some flower examples, no luck on Elegy
+- Breakout session write-up
+
 ### 2 October
 - Advocating for, and researching re: NeurIPS breakout session
 - Loaded Imagenet example from Haiku and ported to Imagenette
