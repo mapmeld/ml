@@ -2,6 +2,9 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 4 October
+- Wrote JAX post, I think I resolved flowers on Flax/Linen today too
+
 ### 3 October
 - Completed Imagenette examples, some flower examples, no luck on Elegy
 - Breakout session write-up
