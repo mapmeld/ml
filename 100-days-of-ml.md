@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 5 October
+- Figured out issues with Elegy: the library is changing and still needs to be documented
+- Watched TWIML video about Duolingo
+
 ### 4 October
 - Wrote JAX post, I think I resolved flowers on Flax/Linen today too
 
