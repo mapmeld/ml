@@ -3,7 +3,7 @@
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
 ### 8 October
-- Contract work
+- read about ar/en gigabert
 
 ### 7 October
 - Submitted breakout session to neurips workshop
