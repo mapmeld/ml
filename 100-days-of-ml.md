@@ -2,9 +2,19 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 8 October
+- Contract work
+
+### 7 October
+- Submitted breakout session to neurips workshop
+
+### 6 October
+- Can't remember making progress on this day
+
 ### 5 October
 - Figured out issues with Elegy: the library is changing and still needs to be documented
 - Watched TWIML video about Duolingo
+- Contract work
 
 ### 4 October
 - Wrote JAX post, I think I resolved flowers on Flax/Linen today too
