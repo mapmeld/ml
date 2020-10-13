@@ -2,6 +2,13 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 12 October
+- Ran updated Bangla/Bengali benchmarks with new model, reached out to the developer
+- Asked Maldivian devs about adding sample sentences
+
+### 9-11 October
+- Read papers on arxiv, contract work, not tracking / little progress
+
 ### 8 October
 - read about ar/en gigabert
 
