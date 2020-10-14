@@ -2,6 +2,14 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 14 October
+- Contract work
+- AFOG Tech Refusal conf
+
+### 13 October
+- Contract work
+- Technical videos and paper-reading
+
 ### 12 October
 - Ran updated Bangla/Bengali benchmarks with new model, reached out to the developer
 - Asked Maldivian devs about adding sample sentences
