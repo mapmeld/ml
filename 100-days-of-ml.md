@@ -2,6 +2,10 @@
 
 Hope to track progress, and encourage myself to keep some of these different projects moving.
 
+### 15 October
+- Scott Aaronson / Lex Fridman video
+- Questions about my old ELECTRA work
+
 ### 14 October
 - Contract work
 - AFOG Tech Refusal conf
